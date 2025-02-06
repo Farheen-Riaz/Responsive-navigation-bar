@@ -1,0 +1,69 @@
+ .logo{
+background-color:white;
+width: 100%;
+height: 80px;
+align-items: center;
+text-align: center;
+
+}
+.nav-bar{
+    background-color: grey;
+width: 100%;
+height: 100px;
+margin-bottom: 10px;
+display: inline;
+list-style-type: none;
+}
+
+.feature{
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+   
+    margin-bottom: 5px;
+}
+
+/* Parent container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Optional: Adds space between columns */
+    height: 200px; /* Height of the container */
+  }
+  
+  /* Column styles */
+  .column {
+    background-color: grey;
+    width: 33.33%; /* Divide the container into 3 equal columns */
+    height: 100%; /* Ensure each column takes full height of the container */
+    margin-right: 10px; /* Space between columns */
+  }
+  
+  /* Specific styles for individual columns */
+  .column-one {
+    background-color:darkgrey; /* Optional: Different color for first column */
+  }
+  
+  .column-two {
+    background-color: darkgrey; /* Optional: Different color for second column */
+  }
+  
+  .column-three {
+    background-color: darkgrey; /* Optional: Different color for third column */
+    margin-right: 0; /* No margin on the last column */
+  }
+  
+
+
+.copyright{
+    background-color: grey;
+    width: 100%;
+    height:80px;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+ 
